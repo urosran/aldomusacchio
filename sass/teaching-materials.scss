@@ -1,0 +1,74 @@
+            .box {
+            height: 100%;
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            border: 100%;
+        }
+.small-image-materials{
+    display: inline-block; 
+    float: left; 
+}
+
+.school--heading{
+    padding: 40px;
+    
+}
+        .background--image--comp--strategy {
+            background: url("../images/competitive%20strategy.jpg");
+            background-size: cover;
+            text-decoration: none;
+        }
+        
+        .background--immersion--experience {
+            background: url("../images/immersion--exp.jpg");
+            background-size: cover;
+            text-decoration: none;
+        }
+        
+        .background--comp--strategy {
+            background: url("../images/comp-startegy.jpg");
+            background-size: cover;
+            //    width: 100%;
+            text-decoration: none !important;
+        }
+        
+        .background--immersion--experience {
+            background: url("../images/immersion--exp.jpg");
+            background-size: cover;
+            text-decoration: none !important;
+            width: 100%;
+        }
+        
+        //        .brandeis {
+        //        height: 40px;
+        //        display: flex;
+        //        flex-direction: row;
+        //        align-items: center;
+        //        background: white;
+        //        text-decoration: none;
+        //    }
+        .background--image:hover {
+            filter: brightness(.7);
+            font-size: 30px;
+            color: white;
+            text-decoration: none !important;
+//            .background--text {
+//                filter: brightness(1);
+//                text-decoration: none;
+//            }
+            .background--immersion--experience {
+                filter: brightness(.7);
+                font-size: 30px;
+                color: white;
+                text-decoration: none !important;
+                &.background--text {
+                text-decoration: none !important;
+                }
+            }
+            .background--text:hover {
+                filter: brightness(.1);
+                text-decoration: white;
+                text-decoration: none !important;
+            }

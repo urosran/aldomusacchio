@@ -1,0 +1,37 @@
+.box {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.background--image--comp--strategy {
+  background: url("../images/competitive%20strategy.jpg");
+  background-size: cover;
+  text-decoration: none; }
+
+.background--immersion--experience {
+  background: url("../images/immersion--exp.jpg");
+  background-size: cover;
+  text-decoration: none; }
+
+.brandeis {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  text-decoration: none; }
+
+.background--image:hover {
+  filter: brightness(0.7);
+  font-size: 30px;
+  color: white;
+  text-decoration: none; }
+  .background--image:hover.background--text {
+    filter: brightness(1);
+    text-decoration: none; }
+
+.background--text:hover {
+  filter: brightness(0.1);
+  text-decoration: white;
+  text-decoration: none; }
